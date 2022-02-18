@@ -1,0 +1,128 @@
+/*****************TAG-SELECTORS*****************/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Open Sans', Arial, sans-serif;
+  background-color: #B3E8BC;
+}
+
+h1 {
+  margin: 0;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 6.25rem;
+  background-color: #B3E8BC;
+}
+
+h2 {
+  margin: 0;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 3.125rem;
+  background-color: #B3E8BC;
+}
+
+h3 {
+  margin: 0;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 1.875rem;
+  background-color: #B3E8BC;
+}
+
+p {
+  margin: 0;
+}
+
+#myVideo {
+  width: 200px;
+  height: 200px;
+  background-color: black;
+}
+
+/*****************CLASS-SELECTORS*****************/
+.top-container {
+  background-color: #B3E8BC;
+}
+
+.middle-container {
+  background-color: black;
+  color: #B3E8BC;
+  height: 200px;
+}
+
+.middle-container_1 {
+  background-color: black;
+  color: #B3E8BC;
+  height: 200px;
+}
+
+.bottom-container {
+  background-color: black;
+  color: #B3E8BC;
+  margin-bottom: 50px;
+}
+
+.picture {
+  display: inline-block;
+  padding: 20px;
+  height: 100px;
+  widows: 100px;
+}
+
+.footer-link {
+  background-color: black;
+  color: #B3E8BC;
+}
+
+.footnote {
+  padding: 20px;
+  height: 200px;
+  background-color: black;
+  color: #B3E8BC;
+}
+
+.space {
+  height: 50px;
+  background-color: #B3E8BC;
+}
+
+.space_1 {
+  height: 50px;
+  background-color: black;
+  color: #B3E8BC;
+}
+
+.pictures {
+  height: 175px;
+  width: 262.5px;
+  float: left;
+  background-color: black;
+  color: #B3E8BC;
+}
+
+.images {
+  margin-bottom: 50px;
+}
+
+.responsive{
+  width: 100%;
+  height: auto;
+
+}
+
+.responsive_1{
+  width: 20%;
+  height: auto;
+  background-color: black;
+  color: #B3E8BC;
+}
+
+.responsive_2{
+  width: 20%;
+  height: auto;
+  background-color: black;
+  color: #B3E8BC;
+}
+
+.black{
+  background-color: black;
+  color: #B3E8BC;
+}
