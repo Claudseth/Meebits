@@ -14,10 +14,10 @@ h1 {
 }
 
 h2 {
-  margin: 0;
   font-family: 'Open Sans', Arial, sans-serif;
   font-size: 3.125rem;
   background-color: #B3E8BC;
+  margin: 0;
 }
 
 h3 {
@@ -27,14 +27,34 @@ h3 {
   background-color: #B3E8BC;
 }
 
+h4 {
+  margin: 0;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 1.875rem;
+  background-color: black;
+  color: #B3E8BC;
+}
+
 p {
   margin: 0;
 }
 
-#myVideo {
-  width: 200px;
-  height: 200px;
+a {
   background-color: black;
+  color: #B3E8BC;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
+
+#myVideo {
+  width: 500px;
+  height: 400px;
+  background-color: black;
+  object-fit: cover;
+  z-index: -100;
 }
 
 /*****************CLASS-SELECTORS*****************/
@@ -45,13 +65,10 @@ p {
 .middle-container {
   background-color: black;
   color: #B3E8BC;
-  height: 200px;
-}
-
-.middle-container_1 {
-  background-color: black;
-  color: #B3E8BC;
-  height: 200px;
+  height: 250px;
+  margin: auto;
+  text-align: left;
+  line-height: 2;
 }
 
 .bottom-container {
@@ -68,8 +85,10 @@ p {
 }
 
 .footer-link {
-  background-color: black;
-  color: #B3E8BC;
+  background-color: #B3E8BC;
+  color: black;
+  text-decoration: none;
+  font-size: 30px;
 }
 
 .footnote {
@@ -98,31 +117,43 @@ p {
   color: #B3E8BC;
 }
 
-.images {
-  margin-bottom: 50px;
+.images_left {
+  margin-left: 35%
 }
 
-.responsive{
+.images_right {
+  margin-right: 35%
+}
+
+.responsive {
   width: 100%;
   height: auto;
-
 }
 
-.responsive_1{
-  width: 20%;
-  height: auto;
+.responsive_1 {
+  width: auto;
+  height: 100%;
+  float: left;
+  margin-left: 35%;
   background-color: black;
   color: #B3E8BC;
 }
 
-.responsive_2{
-  width: 20%;
-  height: auto;
+.black {
   background-color: black;
   color: #B3E8BC;
 }
 
-.black{
-  background-color: black;
-  color: #B3E8BC;
+.float-container {
+  background-color: #B3E8BC;
+}
+
+.float-child {
+  width: 50%;
+  float: left;
+  background-color: #B3E8BC;
+}
+
+.after-box {
+  clear: left;
 }
