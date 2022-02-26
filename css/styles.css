@@ -30,7 +30,7 @@ h3 {
 h4 {
   margin: 0;
   font-family: 'Open Sans', Arial, sans-serif;
-  font-size: 3.125rem;
+  font-size: 6.25rem;
   background-color: black;
   color: #B3E8BC;
 }
@@ -97,6 +97,14 @@ a:hover {
   text-decoration: underline;
 }
 
+.footer-link_2 {
+  background-color: black;
+  color: #B3E8BC;
+  font-size: 3.125rem;
+  text-decoration: underline;
+  margin-top: 20px;
+}
+
 .footnote {
   padding: 20px;
   height: 200px;
@@ -110,7 +118,13 @@ a:hover {
 }
 
 .space_1 {
-  height: 50px;
+  height: 100px;
+  background-color: black;
+  color: #B3E8BC;
+}
+
+.space_2 {
+  height: 250px;
   background-color: black;
   color: #B3E8BC;
 }
@@ -143,6 +157,18 @@ a:hover {
   margin-left: 35%;
   background-color: black;
   color: #B3E8BC;
+}
+
+.responsive_2 {
+  width: 15%;
+  height: auto;
+  margin: auto;
+}
+
+.responsive_3 {
+  width: auto;
+  height: 100%;
+  margin: auto;
 }
 
 .black {
