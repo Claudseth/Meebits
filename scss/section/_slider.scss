@@ -1,0 +1,114 @@
+.slider {
+
+    background-position: center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+
+    [class^="col"] {
+        height: 555px;
+    }
+
+    .col {
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+
+        .slide-item {
+            margin-bottom: 10px;
+
+            img {
+                width: 100%;
+                vertical-align: middle;
+            }
+        }
+
+        .slide-set-1,
+        .slide-set-3 {
+            margin-right: 10px;
+
+            .slide-item:first-child {
+                margin-top: -90px;
+            }
+        }
+
+        .slide-set-2,
+        .slide-set-4 {
+            margin-top: -20px;
+        }
+
+    }
+
+    .slide-content {
+        display: flex;
+        height: 555px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        h2 {
+            font-size: 50px;
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+
+        a {
+            position: relative;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            width: 275px;
+            height: 55px;
+            font-size: 13px;
+            text-transform: uppercase;
+            color: $white;
+            background-color: $primary-color;
+            transition: $transition;
+
+            &::after {
+                content: '';
+                width: 100%;
+                height: 100%;
+                background-color: transparent;
+                border: 1px solid $primary-color;
+                position: absolute;
+                top: 5px;
+                left: 5px;
+                transition: $transition;
+            }
+        }
+
+    }
+
+    @media (max-width: 1199.98px) {
+        [class^="col"],
+        .slide-content {
+            height: 400px;
+        }
+
+        .slide-content h2 {
+            font-size: 40px;
+        }
+
+    }
+
+    @media (max-width: 991.98px) {
+        .slide-content h2 {
+            font-size: 30px;
+        }
+    }
+
+    @media (max-width: 575px) {
+        [class^="col"] {
+            height: 260px;
+        }
+
+        .slide-content {
+            height: 260px;
+        }
+
+        .slide-content h2 {
+            font-size: 24px;
+        }
+    }
+    
+}

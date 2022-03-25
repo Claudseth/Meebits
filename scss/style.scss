@@ -1,0 +1,19 @@
+/*
+------------- Table of content ----------------
+*/
+
+ 
+// variable
+@import "variable/_variable.scss";
+
+// mixin
+@import "mixin/_mixin.scss";
+
+// body reset content
+@import "reset/_predefine.scss";
+
+// component content
+@import "section/banner";
+@import "section/slider";
+@import "section/card";
+@import "section/footer";
